@@ -5,9 +5,6 @@ public class Gato {
     private String cor;
     private int idade;
 
-    public Gato() {
-    }
-
     public Gato(String nome, String cor, int idade) {
         this.nome = nome;
         this.cor = cor;
@@ -36,5 +33,10 @@ public class Gato {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public String toString(){
+    return nome + ", " + cor + ", " + idade;
+
     }
 }
